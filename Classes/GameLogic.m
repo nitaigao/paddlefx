@@ -60,6 +60,48 @@
 	return self;
 }
 
+- (void)player1LeftDown {
+  if (isPlaying) {
+    [player1Paddle startMoveLeft]; 
+  }
+}
+
+- (void)player1LeftUp {
+  if (isPlaying) {
+    [player1Paddle stop]; 
+  }
+}
+
+- (void)player1RightDown {
+  if (isPlaying) {
+    [player1Paddle startMoveRight]; 
+  }
+}
+
+- (void)player1RightUp {
+  if (isPlaying) {
+    [player1Paddle stop]; 
+  }
+}
+
+- (void)player2LeftDown {
+  if (isPlaying) {
+    [player2Paddle startMoveLeft]; 
+  }
+}
+
+- (void)player2LeftUp {
+  [player2Paddle stop]; 
+}
+
+- (void)player2RightDown {
+  [player2Paddle startMoveRight]; 
+}
+
+- (void)player2RightUp {
+  [player2Paddle stop]; 
+}
+
 - (void)onePlayer {
   [scene hideMenu];
   [self setIsSinglePlayer:YES];

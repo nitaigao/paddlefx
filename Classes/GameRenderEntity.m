@@ -56,7 +56,6 @@
 
 - (void)translate:(const CGFloat*)vertices {
 	glLoadIdentity();
-  glTranslatef(0.0f, 0.0f, 10.0f);
 	glVertexPointer(2, GL_FLOAT, 0, vertices);
 	glTranslatef(position.x, position.y, 0.0f);
 }

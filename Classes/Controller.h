@@ -9,10 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface Controller : CCSprite {
-
-  
+@interface Controller : CCSprite {  
   NSMutableArray *buttons;
+  id target;
 }
 
 - (id)init:(id)t;

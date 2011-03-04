@@ -14,9 +14,14 @@
   CCSpriteBatchNode* spriteBatch;
   CCSprite* upState;
   CCSprite* downState;
+  
+  id target;
+  SEL touched;
+  SEL released;
 
 }
 
+- (id)initWithTarget:(id)t touched:(SEL)touch released:(SEL)release;
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
 - (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event;
 

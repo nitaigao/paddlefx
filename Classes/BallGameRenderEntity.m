@@ -20,8 +20,7 @@
 float const ZEROF = 0.0f;
 float const ANGLE_MODIFIER = 5.0f;
 float const TOLERANCE = 0.1f;
-float const SCREEN_SIZE = 1.0f;
-
+float const SCREEN_SIZE = 0.85f;
 
 float const MAX_SPEED_X = 1.5f;
 
