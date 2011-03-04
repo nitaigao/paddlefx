@@ -1,5 +1,5 @@
 //
-//  Controller.h
+//  Button.h
 //  PaddleFX
 //
 //  Created by Nicholas Kostelnik on 04/03/2011.
@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface Controller : CCSprite {
-
+@interface Button : CCSprite {
   
-  NSMutableArray *buttons;
-}
+  CCSpriteBatchNode* spriteBatch;
+  CCSprite* upState;
+  CCSprite* downState;
 
-- (id)init:(id)t;
+}
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
 - (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event;

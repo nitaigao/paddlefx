@@ -29,4 +29,12 @@
   [self removeChild:menu cleanup:NO];
 }
 
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+  [controller touchBegan:touch withEvent:event];
+}
+
+- (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
+  [controller touchEnded:touch withEvent:event];
+}
+
 @end

@@ -12,6 +12,8 @@
 		4C1AD4271320204E00E9FA7F /* Arrow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AD4251320204E00E9FA7F /* Arrow-Left.png */; };
 		4C1AD4281320204E00E9FA7F /* Arrow-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AD4261320204E00E9FA7F /* Arrow-Right.png */; };
 		4C1AD42C1320207500E9FA7F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1AD42B1320207500E9FA7F /* Controller.m */; };
+		4C5282FC13203E6B0033F153 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5282FB13203E6B0033F153 /* Button.m */; };
+		4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */; };
 		4CEA5251131FE39000DA8B3E /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA5250131FE39000DA8B3E /* GameLogic.m */; };
 		4CEA5262131FE3C500DA8B3E /* BallGameRenderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525B131FE3C500DA8B3E /* BallGameRenderEntity.m */; };
 		4CEA5263131FE3C500DA8B3E /* GameOverRenderEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525D131FE3C500DA8B3E /* GameOverRenderEntity.m */; };
@@ -283,6 +285,9 @@
 		4C1AD4261320204E00E9FA7F /* Arrow-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Right.png"; sourceTree = "<group>"; };
 		4C1AD42A1320207500E9FA7F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		4C1AD42B1320207500E9FA7F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		4C5282FA13203E6B0033F153 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		4C5282FB13203E6B0033F153 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Left-Sheet.png"; sourceTree = "<group>"; };
 		4CEA524F131FE39000DA8B3E /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
 		4CEA5250131FE39000DA8B3E /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
 		4CEA5256131FE3C500DA8B3E /* GameRenderEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRenderEntity.h; sourceTree = "<group>"; };
@@ -680,6 +685,8 @@
 				4CEA567B13201AF900DA8B3E /* UI.m */,
 				4C1AD42A1320207500E9FA7F /* Controller.h */,
 				4C1AD42B1320207500E9FA7F /* Controller.m */,
+				4C5282FA13203E6B0033F153 /* Button.h */,
+				4C5282FB13203E6B0033F153 /* Button.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -789,6 +796,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */,
 				4C1AD4251320204E00E9FA7F /* Arrow-Left.png */,
 				4C1AD4261320204E00E9FA7F /* Arrow-Right.png */,
 				4CEA565F132019F600DA8B3E /* DS-DIGI.TTF */,
@@ -1215,6 +1223,7 @@
 				4CEA5662132019F600DA8B3E /* DS-DIGIB.TTF in Resources */,
 				4C1AD4271320204E00E9FA7F /* Arrow-Left.png in Resources */,
 				4C1AD4281320204E00E9FA7F /* Arrow-Right.png in Resources */,
+				4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,6 +1250,7 @@
 				4CEA566513201A2000DA8B3E /* Menu.m in Sources */,
 				4CEA567C13201AF900DA8B3E /* UI.m in Sources */,
 				4C1AD42C1320207500E9FA7F /* Controller.m in Sources */,
+				4C5282FC13203E6B0033F153 /* Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -124,7 +124,6 @@ unsigned long WELLRNG512(void)
 - (void)update:(double)delta {	
 	position.y += (ySpeed * delta);
 	position.x += (xSpeed * delta);
-  NSLog(@"update");
 }
 
 - (bool) test:(float)difference factor:(float)factor {

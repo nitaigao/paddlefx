@@ -23,6 +23,7 @@
 -(id) init
 {
 	if( (self=[super init] )) {    
+    self.isTouchEnabled = YES;
     gameLogic = [[GameLogic alloc] initWithScene:self];
    
     ui = [[UI alloc]init:gameLogic];
@@ -40,6 +41,20 @@
 
 - (void)hideMenu {
   [ui hideMenu];
+}
+
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event 
+{
+  for (UITouch* touch in touches) {
+    [ui touchBegan:touch withEvent:event];
+  }
+}
+
+- (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event 
+{
+  for (UITouch* touch in touches) {
+    [ui touchEnded:touch withEvent:event];
+  }
 }
 
 @end
