@@ -6,11 +6,16 @@
 //  Copyright 2011 Forward. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
 @interface Scores : CCSprite {
+  
+  CCLabelTTF *player1score;
+  CCLabelTTF *player2score;
 
 }
+
+- (void)setPlayer1:(int)score;
+- (void)setPlayer2:(int)score;
 
 @end

@@ -9,13 +9,12 @@
 #import "GameLogic.h"
 
 #import "Direction.h"
-
 #import "PaddleGameRenderEntity.h"
 #import "BallGameRenderEntity.h"
 #import "GameOverRenderEntity.h"
 #import "TennisNetGameRenderEntity.h"
 #import "GameScene.h"
-
+#import "UI.h"
 
 @implementation GameLogic
 
@@ -33,30 +32,27 @@
   
   player1Paddle = [[PaddleGameRenderEntity alloc]initWithPosition:CGPointMake(0.0f, -0.7f)];
   [scene addChild:player1Paddle];
-  [self addPlayer1Paddle:player1Paddle];
   
   player2Paddle = [[PaddleGameRenderEntity alloc]initWithPosition:CGPointMake(0.0f, 0.7f)];
   [scene addChild:player2Paddle];
-  [self addPlayer2Paddle:player2Paddle];
   
   ball = [[BallGameRenderEntity alloc] initWithPosition:CGPointZero];
   [scene addChild:ball];
-  [self addBall:ball];
   
   net = [[TennisNetGameRenderEntity alloc] initWithPosition:CGPointMake(-1.0f, 0.0f)];
   [scene addChild:net];
   
   gameOver1 = [[GameOverRenderEntity alloc]initWithPosition:CGPointMake(0.0f, -0.8f)];
   [scene addChild:gameOver1];
-  [self addGameOver1:gameOver1];
   
   gameOver2 = [[GameOverRenderEntity alloc]initWithPosition:CGPointMake(0.0f, 0.8f)];
   [scene addChild:gameOver2];
-  [self addGameOver2:gameOver2];
+  
+  ui = [[UI alloc]init:self];
+  [scene addChild:ui];
   
   [ball demo];
 
-  
 	return self;
 }
 
@@ -103,35 +99,15 @@
 }
 
 - (void)onePlayer {
-  [scene onePlayer];
-  [self setIsSinglePlayer:YES];
+  [ui onePlayer];
+  isSinglePlayer = YES;
   [self newGame];
 }
 
 - (void)twoPlayer { 
-  [scene twoPlayer];
-  [self setIsSinglePlayer:NO];
+  [ui twoPlayer];
+  isSinglePlayer = FALSE;
   [self newGame];
-}
-
-- (void)addPlayer1Paddle:(PaddleGameRenderEntity*)entity { 
-	player1Paddle = entity;
-}
-
-- (void)addPlayer2Paddle:(PaddleGameRenderEntity*)entity {
-	player2Paddle = entity;
-}
-
-- (void)addGameOver1:(GameOverRenderEntity*)entity {
-	gameOver1 = entity;
-}
-
-- (void)addGameOver2:(GameOverRenderEntity*)entity {
-	gameOver2 = entity;
-}
-
-- (void)addBall:(BallGameRenderEntity*)entity {
-	ball = entity;
 }
 
 - (void)setIsSinglePlayer:(bool)singlePlayer {
@@ -150,10 +126,6 @@
 	else {
 		[player2Paddle stop];
 	}
-}
-
-- (PlayerScores*)reportScores {
-	return [[[PlayerScores alloc]initWithScores:player1Score player2:player2Score] autorelease];
 }
 
 - (void)resumeUpdates {
@@ -178,7 +150,7 @@
 	[self newRound:PLAYER1];
 }
 
-- (bool)hitTestGameOver:(GameOverRenderEntity*)entity player:(int)player {
+- (bool)hitTestRoundOver:(GameOverRenderEntity*)entity player:(int)player {
 	if ([ball hitTestEntity:entity]) {
 		if (player == PLAYER1) {
 			player1Score += 1;
@@ -188,11 +160,11 @@
 			player2Score += 1;
 			[self newRound:PLAYER2];
 		}
+    [ui setScores:player2Score player2:player1Score];
 		return true;
 	}
 	return false;
 }
-
 
 - (void)hitTest {	
 	if([ball hitTestEntity:player1Paddle] ||
@@ -204,14 +176,12 @@
 	
 	if ([ball hitTestSides]) {
 		if(isPlaying) {
-			if(isPlaying) {
-				[soundSystem playBounceSound];
-			}
+      [soundSystem playBounceSound];
 		}
 	}
 	
-	if ([self hitTestGameOver:gameOver1 player:PLAYER2] ||
-      [self hitTestGameOver:gameOver2 player:PLAYER1] ) {
+	if ([self hitTestRoundOver:gameOver1 player:PLAYER2] ||
+      [self hitTestRoundOver:gameOver2 player:PLAYER1] ) {
 		[soundSystem playScoreSound];		
 	}
 }
@@ -230,5 +200,16 @@
 	
 	[self hitTest];
 }
+
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event 
+{
+  [ui touchBegan:touch withEvent:event];
+}
+
+- (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event 
+{
+  [ui touchEnded:touch withEvent:event];
+}
+
 
 @end

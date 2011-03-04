@@ -9,6 +9,7 @@
 #import "UI.h"
 #import "Menu.h"
 #import "Controller.h"
+#import "Scores.h"
 
 @implementation UI
 
@@ -22,6 +23,13 @@
     controller = [[Controller alloc] init:t];
     [controller hideAll];
     [self addChild:controller];
+    
+    CGSize screenSize = [CCDirector sharedDirector].winSize;
+    
+    scores = [[Scores alloc]init];
+    scores.position = ccp(screenSize.width - 50, screenSize.height / 2);
+    scores.rotation = 90;
+    [self addChild:scores];
   }
   return self;
 }
@@ -34,6 +42,11 @@
 - (void)onePlayer {
   [self removeChild:menu cleanup:NO];
   [controller showPlayer1];
+}
+
+- (void)setScores:(int)player1 player2:(int)player2 {
+  [scores setPlayer1:player1];
+  [scores setPlayer2:player2];
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {

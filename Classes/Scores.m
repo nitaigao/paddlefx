@@ -11,4 +11,29 @@
 
 @implementation Scores
 
+- (id) init
+{
+  self = [super init];
+  if (self != nil) {
+    player1score = [[CCLabelTTF alloc] initWithString:@"0" fontName:@"DS-DIGIB" fontSize:48];
+    player1score.position = ccp(-150, 0);
+    [self addChild:player1score];
+    
+    player2score = [[CCLabelTTF alloc] initWithString:@"0" fontName:@"DS-DIGIB" fontSize:48];
+    player2score.position = ccp(150, 0);
+    [self addChild:player2score];
+  }
+  return self;
+}
+
+- (void)setPlayer1:(int)score {
+  [player1score setString:[NSString stringWithFormat:@"%d", score]];
+}
+
+- (void)setPlayer2:(int)score {
+  [player2score setString:[NSString stringWithFormat:@"%d", score]];
+}
+
+
+
 @end

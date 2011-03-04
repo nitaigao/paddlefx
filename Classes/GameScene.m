@@ -25,10 +25,6 @@
 	if( (self=[super init] )) {    
     self.isTouchEnabled = YES;
     gameLogic = [[GameLogic alloc] initWithScene:self];
-   
-    ui = [[UI alloc]init:gameLogic];
-    [self addChild:ui];
-
     [self schedule:@selector(update:) interval:1.0f/120.0f];
     
 	}
@@ -39,25 +35,17 @@
   [gameLogic update:dt]; 
 }
 
-- (void)onePlayer {
-  [ui onePlayer];
-}
-
-- (void)twoPlayer {
-  [ui twoPlayer];
-}
-
 - (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event 
 {
   for (UITouch* touch in touches) {
-    [ui touchBegan:touch withEvent:event];
+    [gameLogic touchBegan:touch withEvent:event];
   }
 }
 
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event 
 {
   for (UITouch* touch in touches) {
-    [ui touchEnded:touch withEvent:event];
+    [gameLogic touchEnded:touch withEvent:event];
   }
 }
 

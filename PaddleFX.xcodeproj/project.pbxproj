@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F3B9A2D0EF2145700286867 /* PaddleFXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */; };
-		4C1AD4271320204E00E9FA7F /* Arrow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AD4251320204E00E9FA7F /* Arrow-Left.png */; };
-		4C1AD4281320204E00E9FA7F /* Arrow-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AD4261320204E00E9FA7F /* Arrow-Right.png */; };
 		4C1AD42C1320207500E9FA7F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1AD42B1320207500E9FA7F /* Controller.m */; };
 		4C5282FC13203E6B0033F153 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5282FB13203E6B0033F153 /* Button.m */; };
 		4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */; };
@@ -80,7 +78,6 @@
 		50F41341106926B2002A0D5E /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F41321106926B2002A0D5E /* CJSONScanner.m */; };
 		50F41342106926B2002A0D5E /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F41322106926B2002A0D5E /* CJSONSerializer.h */; };
 		50F41343106926B2002A0D5E /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F41323106926B2002A0D5E /* CJSONSerializer.m */; };
-		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
@@ -281,8 +278,6 @@
 		1F3B9A2C0EF2145700286867 /* PaddleFXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaddleFXAppDelegate.h; path = Classes/PaddleFXAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		1F3B9A820EF2151B00286867 /* PaddleFX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleFX_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C1AD4251320204E00E9FA7F /* Arrow-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Left.png"; sourceTree = "<group>"; };
-		4C1AD4261320204E00E9FA7F /* Arrow-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Right.png"; sourceTree = "<group>"; };
 		4C1AD42A1320207500E9FA7F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		4C1AD42B1320207500E9FA7F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		4C5282FA13203E6B0033F153 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
@@ -362,7 +357,6 @@
 		50F41321106926B2002A0D5E /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
 		50F41322106926B2002A0D5E /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
 		50F41323106926B2002A0D5E /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
-		50F414EC1069373D002A0D5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -797,8 +791,6 @@
 			isa = PBXGroup;
 			children = (
 				4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */,
-				4C1AD4251320204E00E9FA7F /* Arrow-Left.png */,
-				4C1AD4261320204E00E9FA7F /* Arrow-Right.png */,
 				4CEA565F132019F600DA8B3E /* DS-DIGI.TTF */,
 				4CEA5660132019F600DA8B3E /* DS-DIGIB.TTF */,
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
@@ -807,7 +799,6 @@
 				E02BB500126CA50F006E46A2 /* Icon-Small.png */,
 				E02BB501126CA50F006E46A2 /* Icon-Small-50.png */,
 				E02BB502126CA50F006E46A2 /* Icon-72.png */,
-				50F414EC1069373D002A0D5E /* Default.png */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
 				50F414EE1069373D002A0D5E /* Icon.png */,
 				50F414EF1069373D002A0D5E /* Info.plist */,
@@ -1210,7 +1201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F414F01069373D002A0D5E /* Default.png in Resources */,
 				50F414F11069373D002A0D5E /* fps_images.png in Resources */,
 				50F414F21069373D002A0D5E /* Icon.png in Resources */,
 				E02BB504126CA50F006E46A2 /* Icon@2x.png in Resources */,
@@ -1221,8 +1211,6 @@
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
 				4CEA5661132019F600DA8B3E /* DS-DIGI.TTF in Resources */,
 				4CEA5662132019F600DA8B3E /* DS-DIGIB.TTF in Resources */,
-				4C1AD4271320204E00E9FA7F /* Arrow-Left.png in Resources */,
-				4C1AD4281320204E00E9FA7F /* Arrow-Right.png in Resources */,
 				4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

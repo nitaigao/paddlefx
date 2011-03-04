@@ -11,15 +11,19 @@
 
 @class Menu;
 @class Controller;
+@class Scores;
 
 @interface UI : CCSprite {
   Menu* menu;
   Controller* controller;
+  Scores* scores;
 }
 
 - (id)init:(id)t;
 - (void)onePlayer;
 - (void)twoPlayer;
+
+- (void)setScores:(int)player1 player2:(int)player2;
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
 - (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event;

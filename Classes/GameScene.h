@@ -13,13 +13,9 @@
 
 @interface GameScene : CCLayer
 {  
-  UI* ui;
   GameLogic* gameLogic;
 }
 
 +(id) scene;
-
-- (void)onePlayer;
-- (void)twoPlayer;
 
 @end

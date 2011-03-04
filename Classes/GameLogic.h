@@ -14,8 +14,8 @@
 @class TennisNetGameRenderEntity;
 @class GameRenderEntity;
 @class GameScene;
+@class UI;
 
-#import "PlayerScores.h"
 #import "SoundSystem.h"
 
 @class CCLayer;
@@ -38,22 +38,18 @@
 	int player1Score;
 	int player2Score;
   
-  GameScene* scene;
-  
+  GameScene* scene;  
+  UI* ui;
 }
 
 - (id)initWithScene:(GameScene*)scene;
+
 - (void)onePlayer;
 - (void)twoPlayer;
-- (void)addPlayer1Paddle:(PaddleGameRenderEntity*)entity;
-- (void)addPlayer2Paddle:(PaddleGameRenderEntity*)entity;
-- (void)addBall:(GameRenderEntity*)entity;
-- (void)addGameOver1:(GameOverRenderEntity*)entity;
-- (void)addGameOver2:(GameOverRenderEntity*)entity;
-- (PlayerScores*)reportScores;
 
 - (void)newGame;
-- (void)setIsSinglePlayer:(bool)singlePlayer;
 - (void)update:(float)deltaMilliseconds;
 
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
+- (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event;
 @end
