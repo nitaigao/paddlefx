@@ -20,13 +20,20 @@
     [self addChild:menu];
     
     controller = [[Controller alloc] init:t];
+    [controller hideAll];
     [self addChild:controller];
   }
   return self;
 }
 
-- (void)hideMenu {
+- (void)twoPlayer {
   [self removeChild:menu cleanup:NO];
+  [controller showBothPlayers];
+}
+
+- (void)onePlayer {
+  [self removeChild:menu cleanup:NO];
+  [controller showPlayer1];
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {

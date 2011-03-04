@@ -18,7 +18,8 @@
 }
 
 - (id)init:(id)t;
-- (void)hideMenu;
+- (void)onePlayer;
+- (void)twoPlayer;
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event;
 - (void)touchEnded:(UITouch *)touch withEvent:(UIEvent *)event;

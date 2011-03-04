@@ -39,8 +39,12 @@
   [gameLogic update:dt]; 
 }
 
-- (void)hideMenu {
-  [ui hideMenu];
+- (void)onePlayer {
+  [ui onePlayer];
+}
+
+- (void)twoPlayer {
+  [ui twoPlayer];
 }
 
 - (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event 

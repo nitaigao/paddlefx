@@ -19,6 +19,7 @@
 
 +(id) scene;
 
-- (void)hideMenu;
+- (void)onePlayer;
+- (void)twoPlayer;
 
 @end

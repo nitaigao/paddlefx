@@ -103,13 +103,13 @@
 }
 
 - (void)onePlayer {
-  [scene hideMenu];
+  [scene onePlayer];
   [self setIsSinglePlayer:YES];
   [self newGame];
 }
 
 - (void)twoPlayer { 
-  [scene hideMenu];
+  [scene twoPlayer];
   [self setIsSinglePlayer:NO];
   [self newGame];
 }
