@@ -15,19 +15,15 @@
 #import "Net.h"
 #import "Scene.h"
 #import "UI.h"
+#import "Sound.h"
 
 @implementation Logic
-
-- (void)dealloc {
-	[super dealloc];
-	[soundSystem dealloc];
-};
 
 - (id)initWithScene:(Scene*)s {
 	isDemo = true;
 	isPlaying = false;
 	isSinglePlayer = false;
-	soundSystem = [[Sound alloc]init];
+	sound = [[Sound alloc]init];
   scene = s;
   
   player1Paddle = [[Paddle alloc]initWithPosition:CGPointMake(0.0f, -0.7f)];
@@ -170,19 +166,19 @@
 	if([ball hitTestEntity:player1Paddle] ||
 	   [ball hitTestEntity:player2Paddle]) {
 		if(isPlaying) {
-      [soundSystem playHitSound];
+      [sound playHitSound];
 		}
 	}
 	
 	if ([ball hitTestSides]) {
 		if(isPlaying) {
-      [soundSystem playBounceSound];
+      [sound playBounceSound];
 		}
 	}
 	
 	if ([self hitTestRoundOver:gameOver1 player:PLAYER2] ||
       [self hitTestRoundOver:gameOver2 player:PLAYER1] ) {
-		[soundSystem playScoreSound];		
+		[sound playScoreSound];		
 	}
 }
 

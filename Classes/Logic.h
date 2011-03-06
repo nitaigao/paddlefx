@@ -15,8 +15,7 @@
 @class Entity;
 @class Scene;
 @class UI;
-
-#import "Sound.h"
+@class Sound;
 
 @class CCLayer;
 
@@ -32,14 +31,13 @@
 	GameOver* gameOver1;
 	GameOver* gameOver2;
   Net* net;
-  
-	Sound* soundSystem;
 	
 	int player1Score;
 	int player2Score;
   
   Scene* scene;  
   UI* ui;
+  Sound* sound;
 }
 
 - (id)initWithScene:(Scene*)scene;

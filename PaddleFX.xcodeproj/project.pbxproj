@@ -18,11 +18,11 @@
 		4C1AD42C1320207500E9FA7F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1AD42B1320207500E9FA7F /* Controller.m */; };
 		4C5282FC13203E6B0033F153 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5282FB13203E6B0033F153 /* Button.m */; };
 		4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */; };
+		4C64D96A13232B3C00B031A1 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64D96913232B3C00B031A1 /* Sound.m */; };
 		4CEA5251131FE39000DA8B3E /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA5250131FE39000DA8B3E /* Logic.m */; };
 		4CEA5262131FE3C500DA8B3E /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525B131FE3C500DA8B3E /* Ball.m */; };
 		4CEA5263131FE3C500DA8B3E /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525D131FE3C500DA8B3E /* GameOver.m */; };
 		4CEA5264131FE3C500DA8B3E /* Net.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525F131FE3C500DA8B3E /* Net.m */; };
-		4CEA5270131FE40900DA8B3E /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA526F131FE40900DA8B3E /* Sound.m */; };
 		4CEA5476131FF2D200DA8B3E /* Paddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA5471131FF2D200DA8B3E /* Paddle.m */; };
 		4CEA548C131FF32400DA8B3E /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA548B131FF32400DA8B3E /* Entity.m */; };
 		4CEA565E132019D400DA8B3E /* Scores.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA565D132019D400DA8B3E /* Scores.m */; };
@@ -294,6 +294,8 @@
 		4C5282FA13203E6B0033F153 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
 		4C5282FB13203E6B0033F153 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
 		4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Left-Sheet.png"; sourceTree = "<group>"; };
+		4C64D96813232B3C00B031A1 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		4C64D96913232B3C00B031A1 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
 		4CEA524F131FE39000DA8B3E /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		4CEA5250131FE39000DA8B3E /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		4CEA5256131FE3C500DA8B3E /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
@@ -305,8 +307,6 @@
 		4CEA525E131FE3C500DA8B3E /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
 		4CEA525F131FE3C500DA8B3E /* Net.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Net.m; sourceTree = "<group>"; };
 		4CEA5269131FE3EA00DA8B3E /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
-		4CEA526E131FE40900DA8B3E /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = "../paddlefx-old/src/Classes/Sound.h"; sourceTree = SOURCE_ROOT; };
-		4CEA526F131FE40900DA8B3E /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = "../paddlefx-old/src/Classes/Sound.m"; sourceTree = SOURCE_ROOT; };
 		4CEA5471131FF2D200DA8B3E /* Paddle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paddle.m; sourceTree = "<group>"; };
 		4CEA548B131FF32400DA8B3E /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		4CEA565C132019D400DA8B3E /* Scores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scores.h; sourceTree = "<group>"; };
@@ -665,10 +665,10 @@
 			children = (
 				506EDC2F102F528A00A389B3 /* Scene.h */,
 				506EDC30102F528A00A389B3 /* Scene.m */,
-				4CEA526E131FE40900DA8B3E /* Sound.h */,
-				4CEA526F131FE40900DA8B3E /* Sound.m */,
 				4CEA524F131FE39000DA8B3E /* Logic.h */,
 				4CEA5250131FE39000DA8B3E /* Logic.m */,
+				4C64D96813232B3C00B031A1 /* Sound.h */,
+				4C64D96913232B3C00B031A1 /* Sound.m */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -1265,7 +1265,6 @@
 				4CEA5262131FE3C500DA8B3E /* Ball.m in Sources */,
 				4CEA5263131FE3C500DA8B3E /* GameOver.m in Sources */,
 				4CEA5264131FE3C500DA8B3E /* Net.m in Sources */,
-				4CEA5270131FE40900DA8B3E /* Sound.m in Sources */,
 				4CEA5476131FF2D200DA8B3E /* Paddle.m in Sources */,
 				4CEA548C131FF32400DA8B3E /* Entity.m in Sources */,
 				4CEA565E132019D400DA8B3E /* Scores.m in Sources */,
@@ -1273,6 +1272,7 @@
 				4CEA567C13201AF900DA8B3E /* UI.m in Sources */,
 				4C1AD42C1320207500E9FA7F /* Controller.m in Sources */,
 				4C5282FC13203E6B0033F153 /* Button.m in Sources */,
+				4C64D96A13232B3C00B031A1 /* Sound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
