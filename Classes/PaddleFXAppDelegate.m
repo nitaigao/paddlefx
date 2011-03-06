@@ -10,7 +10,7 @@
 
 #import "PaddleFXAppDelegate.h"
 #import "GameConfig.h"
-#import "GameScene.h"
+#import "Scene.h"
 #import "RootViewController.h"
 
 @implementation PaddleFXAppDelegate
@@ -89,7 +89,7 @@
 #endif
 	
 	[director setAnimationInterval:1.0/60];
-	[director setDisplayFPS:YES];
+	[director setDisplayFPS:NO];
 	
 	
 	// make the OpenGLView a child of the view controller
@@ -110,7 +110,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [GameScene scene]];		
+	[[CCDirector sharedDirector] runWithScene: [Scene scene]];		
 }
 
 

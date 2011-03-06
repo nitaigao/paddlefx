@@ -6,12 +6,12 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "TennisNetGameRenderEntity.h"
+#import "Net.h"
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
-@implementation TennisNetGameRenderEntity
+@implementation Net
 
 static const GLfloat tennisNetVertices[] = {
 	-0.02f,  -0.02f,

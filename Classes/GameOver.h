@@ -6,9 +6,9 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "GameRenderEntity.h"
+#import "Entity.h"
 
-@interface GameOverRenderEntity : GameRenderEntity {
+@interface GameOver : Entity {
 	
 }
 

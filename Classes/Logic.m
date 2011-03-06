@@ -6,46 +6,46 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "GameLogic.h"
+#import "Logic.h"
 
 #import "Direction.h"
-#import "PaddleGameRenderEntity.h"
-#import "BallGameRenderEntity.h"
-#import "GameOverRenderEntity.h"
-#import "TennisNetGameRenderEntity.h"
-#import "GameScene.h"
+#import "Paddle.h"
+#import "Ball.h"
+#import "GameOver.h"
+#import "Net.h"
+#import "Scene.h"
 #import "UI.h"
 
-@implementation GameLogic
+@implementation Logic
 
 - (void)dealloc {
 	[super dealloc];
 	[soundSystem dealloc];
 };
 
-- (id)initWithScene:(GameScene*)s {
+- (id)initWithScene:(Scene*)s {
 	isDemo = true;
 	isPlaying = false;
 	isSinglePlayer = false;
-	soundSystem = [[SoundSystem alloc]init];
+	soundSystem = [[Sound alloc]init];
   scene = s;
   
-  player1Paddle = [[PaddleGameRenderEntity alloc]initWithPosition:CGPointMake(0.0f, -0.7f)];
+  player1Paddle = [[Paddle alloc]initWithPosition:CGPointMake(0.0f, -0.7f)];
   [scene addChild:player1Paddle];
   
-  player2Paddle = [[PaddleGameRenderEntity alloc]initWithPosition:CGPointMake(0.0f, 0.7f)];
+  player2Paddle = [[Paddle alloc]initWithPosition:CGPointMake(0.0f, 0.7f)];
   [scene addChild:player2Paddle];
   
-  ball = [[BallGameRenderEntity alloc] initWithPosition:CGPointZero];
+  ball = [[Ball alloc] initWithPosition:CGPointZero];
   [scene addChild:ball];
   
-  net = [[TennisNetGameRenderEntity alloc] initWithPosition:CGPointMake(-1.0f, 0.0f)];
+  net = [[Net alloc] initWithPosition:CGPointMake(-1.0f, 0.0f)];
   [scene addChild:net];
   
-  gameOver1 = [[GameOverRenderEntity alloc]initWithPosition:CGPointMake(0.0f, -0.8f)];
+  gameOver1 = [[GameOver alloc]initWithPosition:CGPointMake(0.0f, -0.8f)];
   [scene addChild:gameOver1];
   
-  gameOver2 = [[GameOverRenderEntity alloc]initWithPosition:CGPointMake(0.0f, 0.8f)];
+  gameOver2 = [[GameOver alloc]initWithPosition:CGPointMake(0.0f, 0.8f)];
   [scene addChild:gameOver2];
   
   ui = [[UI alloc]init:self];
@@ -150,7 +150,7 @@
 	[self newRound:PLAYER1];
 }
 
-- (bool)hitTestRoundOver:(GameOverRenderEntity*)entity player:(int)player {
+- (bool)hitTestRoundOver:(GameOver*)entity player:(int)player {
 	if ([ball hitTestEntity:entity]) {
 		if (player == PLAYER1) {
 			player1Score += 1;

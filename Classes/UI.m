@@ -29,18 +29,19 @@
     scores = [[Scores alloc]init];
     scores.position = ccp(screenSize.width - 50, screenSize.height / 2);
     scores.rotation = 90;
-    [self addChild:scores];
   }
   return self;
 }
 
 - (void)twoPlayer {
   [self removeChild:menu cleanup:NO];
+  [self addChild:scores];
   [controller showBothPlayers];
 }
 
 - (void)onePlayer {
   [self removeChild:menu cleanup:NO];
+  [self addChild:scores];
   [controller showPlayer1];
 }
 

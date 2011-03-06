@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GameRenderEntity.h"
+#import "Entity.h"
 
-@interface PaddleGameRenderEntity : GameRenderEntity {
+@interface Paddle : Entity {
 	float moveSpeed;
 }
 

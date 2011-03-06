@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GameRenderEntity.h"
+#import "Entity.h"
 
-@interface TennisNetGameRenderEntity : GameRenderEntity {
+@interface Net : Entity {
 
 }
 

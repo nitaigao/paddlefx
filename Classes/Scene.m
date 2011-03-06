@@ -6,16 +6,16 @@
 //  Copyright Forward 2011. All rights reserved.
 //
 
-#import "GameScene.h"
-#import "GameLogic.h"
+#import "Scene.h"
+#import "Logic.h"
 #import "UI.h"
 
-@implementation GameScene
+@implementation Scene
 
 +(id) scene
 {
 	CCScene *scene = [CCScene node];
-	GameScene *layer = [GameScene node];
+	Scene *layer = [Scene node];
 	[scene addChild: layer];
 	return scene;
 }
@@ -24,7 +24,7 @@
 {
 	if( (self=[super init] )) {    
     self.isTouchEnabled = YES;
-    gameLogic = [[GameLogic alloc] initWithScene:self];
+    gameLogic = [[Logic alloc] initWithScene:self];
     [self schedule:@selector(update:) interval:1.0f/120.0f];
     
 	}

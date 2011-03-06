@@ -8,41 +8,41 @@
 
 #import <Foundation/Foundation.h>
 
-@class PaddleGameRenderEntity;
-@class BallGameRenderEntity;
-@class GameOverRenderEntity;
-@class TennisNetGameRenderEntity;
-@class GameRenderEntity;
-@class GameScene;
+@class Paddle;
+@class Ball;
+@class GameOver;
+@class Net;
+@class Entity;
+@class Scene;
 @class UI;
 
-#import "SoundSystem.h"
+#import "Sound.h"
 
 @class CCLayer;
 
-@interface GameLogic : NSObject {
+@interface Logic : NSObject {
 	
 	bool isPlaying;
 	bool isSinglePlayer;
 	bool isDemo;
 	  
-  PaddleGameRenderEntity* player1Paddle;
-	PaddleGameRenderEntity* player2Paddle;
-	BallGameRenderEntity* ball;
-	GameOverRenderEntity* gameOver1;
-	GameOverRenderEntity* gameOver2;
-  TennisNetGameRenderEntity* net;
+  Paddle* player1Paddle;
+	Paddle* player2Paddle;
+	Ball* ball;
+	GameOver* gameOver1;
+	GameOver* gameOver2;
+  Net* net;
   
-	SoundSystem* soundSystem;
+	Sound* soundSystem;
 	
 	int player1Score;
 	int player2Score;
   
-  GameScene* scene;  
+  Scene* scene;  
   UI* ui;
 }
 
-- (id)initWithScene:(GameScene*)scene;
+- (id)initWithScene:(Scene*)scene;
 
 - (void)onePlayer;
 - (void)twoPlayer;

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GameRenderEntity.h"
+#import "Entity.h"
 
-@interface BallGameRenderEntity : GameRenderEntity {
+@interface Ball : Entity {
 	float ySpeed;
 	float xSpeed;
 	bool isDemo;
@@ -19,10 +19,10 @@
 }
 
 - (id)initWithPosition:(CGPoint)initialPosition;
-- (bool)hitTestEntity:(GameRenderEntity*) entity;
+- (bool)hitTestEntity:(Entity*) entity;
 - (bool)hitTestSides;
 - (void)demo;
 - (void)serve:(int)serveDirection;
-- (int)sideOf:(GameRenderEntity*)entity;
+- (int)sideOf:(Entity*)entity;
 
 @end

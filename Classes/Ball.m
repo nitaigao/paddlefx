@@ -6,7 +6,7 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "BallGameRenderEntity.h"
+#import "Ball.h"
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
@@ -15,7 +15,7 @@
 
 #import "Direction.h"
 
-@implementation BallGameRenderEntity
+@implementation Ball
 
 float const ZEROF = 0.0f;
 float const ANGLE_MODIFIER = 5.0f;
@@ -129,7 +129,7 @@ unsigned long WELLRNG512(void)
 	return (difference >= ZEROF && difference <= factor);
 }
 
-- (bool) yTest:(GameRenderEntity *) entity {
+- (bool) yTest:(Entity *) entity {
 
 	float difference = position.y - entity.position.y;
 	
@@ -157,7 +157,7 @@ unsigned long WELLRNG512(void)
 	return false;
 }
 
-- (bool) xTest:(GameRenderEntity *) entity  {
+- (bool) xTest:(Entity *) entity  {
 
 	float entityRight = entity.position.x + (entity.dimensions.width / 2);
 	float entityLeft = entity.position.x - (entity.dimensions.width / 2);
@@ -172,7 +172,7 @@ unsigned long WELLRNG512(void)
 	
 }
 
-- (bool)hitTestEntity:(GameRenderEntity*) entity {
+- (bool)hitTestEntity:(Entity*) entity {
 	if ( [self xTest: entity]) {
 		if ([self yTest: entity]) {
 			[self bounce:position.x - entity.position.x];
@@ -199,7 +199,7 @@ unsigned long WELLRNG512(void)
 	return false;
 }
 
-- (int)sideOf:(GameRenderEntity*)entity {
+- (int)sideOf:(Entity*)entity {
 	float difference = entity.position.x - self.position.x;
 	
 	if (difference < -TOLERANCE) {

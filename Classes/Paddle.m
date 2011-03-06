@@ -6,12 +6,12 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "PaddleGameRenderEntity.h"
+#import "Paddle.h"
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
-@implementation PaddleGameRenderEntity
+@implementation Paddle
 
 const float MAX_MOVE_SPEED = 1.2f;
 

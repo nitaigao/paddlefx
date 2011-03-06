@@ -9,8 +9,8 @@
 	1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 2448}}";
-			sepNavSelRange = "{2034, 0}";
-			sepNavVisRange = "{1160, 1696}";
+			sepNavSelRange = "{2844, 0}";
+			sepNavVisRange = "{1671, 1682}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -22,7 +22,6 @@
 			1D6058900D05DD3D006BFB54 /* PaddleFX */,
 		);
 		breakpoints = (
-			4CDDCD8F132178860070B4D7 /* Button.m:46 */,
 		);
 		codeSenseManager = 4CEA5224131FE25B00DA8B3E /* Code sense */;
 		executables = (
@@ -32,38 +31,9 @@
 			PBXPerProjectTemplateStateSaveDate = 320969900;
 			PBXWorkspaceStateSaveDate = 320969900;
 		};
-		perUserProjectItems = {
-			4C0E45FB13219CB300C33A3B /* PBXBookmark */ = 4C0E45FB13219CB300C33A3B /* PBXBookmark */;
-			4C0E460213219CBF00C33A3B /* PBXTextBookmark */ = 4C0E460213219CBF00C33A3B /* PBXTextBookmark */;
-			4C0E460F13219CFA00C33A3B /* PBXTextBookmark */ = 4C0E460F13219CFA00C33A3B /* PBXTextBookmark */;
-		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
 		};
-	};
-	4C0E45FB13219CB300C33A3B /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 4CEA5250131FE39000DA8B3E /* GameLogic.m */;
-	};
-	4C0E460213219CBF00C33A3B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CEA5250131FE39000DA8B3E /* GameLogic.m */;
-		name = "GameLogic.m: 198";
-		rLen = 0;
-		rLoc = 3994;
-		rType = 0;
-		vrLen = 1027;
-		vrLoc = 2861;
-	};
-	4C0E460F13219CFA00C33A3B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CEA5250131FE39000DA8B3E /* GameLogic.m */;
-		name = "GameLogic.m: 166";
-		rLen = 0;
-		rLoc = 3342;
-		rType = 0;
-		vrLen = 1042;
-		vrLoc = 2953;
 	};
 	4C1AD42A1320207500E9FA7F /* Controller.h */ = {
 		uiCtxt = {
@@ -91,29 +61,11 @@
 	};
 	4C5282FB13203E6B0033F153 /* Button.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 1120}}";
-			sepNavSelRange = "{1358, 0}";
-			sepNavVisRange = "{178, 1921}";
+			sepNavIntBoundsRect = "{{0, 0}, {1375, 1024}}";
+			sepNavSelRange = "{1430, 0}";
+			sepNavVisRange = "{1038, 903}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
-	};
-	4CDDCD8F132178860070B4D7 /* Button.m:46 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 4C5282FB13203E6B0033F153 /* Button.m */;
-		functionName = "-touchBegan:withEvent:";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 46;
-		location = PaddleFX;
-		modificationTime = 320960650.995591;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	4CEA520E131FE24D00DA8B3E /* PaddleFX */ = {
 		isa = PBXExecutable;
@@ -161,39 +113,47 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	4CEA524F131FE39000DA8B3E /* GameLogic.h */ = {
+	4CEA524F131FE39000DA8B3E /* Logic.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 896}}";
-			sepNavSelRange = "{850, 0}";
-			sepNavVisRange = "{139, 943}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 944}}";
+			sepNavSelRange = "{896, 0}";
+			sepNavVisRange = "{0, 721}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA5250131FE39000DA8B3E /* GameLogic.m */ = {
+	4CEA5250131FE39000DA8B3E /* Logic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 3584}}";
-			sepNavSelRange = "{3342, 0}";
-			sepNavVisRange = "{2953, 1045}";
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 3360}}";
+			sepNavSelRange = "{3014, 0}";
+			sepNavVisRange = "{2870, 285}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA5256131FE3C500DA8B3E /* GameRenderEntity.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{537, 0}";
-			sepNavVisRange = "{0, 539}";
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	4CEA525A131FE3C500DA8B3E /* BallGameRenderEntity.h */ = {
+	4CEA5256131FE3C500DA8B3E /* Entity.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{344, 0}";
-			sepNavVisRange = "{0, 562}";
+			sepNavSelRange = "{255, 0}";
+			sepNavVisRange = "{0, 529}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA525B131FE3C500DA8B3E /* BallGameRenderEntity.m */ = {
+	4CEA5258131FE3C500DA8B3E /* Paddle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRange = "{0, 368}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4CEA525A131FE3C500DA8B3E /* Ball.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{506, 0}";
+			sepNavVisRange = "{0, 506}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4CEA525B131FE3C500DA8B3E /* Ball.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 3632}}";
 			sepNavSelRange = "{2159, 0}";
@@ -201,31 +161,31 @@
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA525C131FE3C500DA8B3E /* GameOverRenderEntity.h */ = {
+	4CEA525C131FE3C500DA8B3E /* GameOver.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{247, 0}";
-			sepNavVisRange = "{0, 247}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 215}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA525D131FE3C500DA8B3E /* GameOverRenderEntity.m */ = {
+	4CEA525D131FE3C500DA8B3E /* GameOver.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{654, 0}";
-			sepNavVisRange = "{0, 661}";
+			sepNavSelRange = "{574, 0}";
+			sepNavVisRange = "{0, 637}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA525E131FE3C500DA8B3E /* TennisNetGameRenderEntity.h */ = {
+	4CEA525E131FE3C500DA8B3E /* Net.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{291, 0}";
-			sepNavVisRange = "{0, 291}";
+			sepNavSelRange = "{249, 0}";
+			sepNavVisRange = "{0, 249}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA525F131FE3C500DA8B3E /* TennisNetGameRenderEntity.m */ = {
+	4CEA525F131FE3C500DA8B3E /* Net.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 944}}";
 			sepNavSelRange = "{831, 0}";
@@ -233,38 +193,39 @@
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA526F131FE40900DA8B3E /* SoundSystem.m */ = {
+	4CEA5269131FE3EA00DA8B3E /* Direction.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 992}}";
-			sepNavSelRange = "{850, 0}";
-			sepNavVisRange = "{174, 1459}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{269, 0}";
+			sepNavVisRange = "{0, 269}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA5274131FE41400DA8B3E /* PlayerScores.h */ = {
+	4CEA526E131FE40900DA8B3E /* Sound.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 406}";
-		};
-	};
-	4CEA5275131FE41400DA8B3E /* PlayerScores.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{395, 0}";
-			sepNavVisRange = "{0, 401}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 315}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA5471131FF2D200DA8B3E /* PaddleGameRenderEntity.m */ = {
+	4CEA526F131FE40900DA8B3E /* Sound.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1375, 736}}";
+			sepNavSelRange = "{765, 0}";
+			sepNavVisRange = "{130, 546}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4CEA5471131FF2D200DA8B3E /* Paddle.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 1200}}";
-			sepNavSelRange = "{798, 460}";
-			sepNavVisRange = "{387, 1043}";
+			sepNavSelRange = "{947, 0}";
+			sepNavVisRange = "{0, 1142}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CEA548B131FF32400DA8B3E /* GameRenderEntity.m */ = {
+	4CEA548B131FF32400DA8B3E /* Entity.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 1024}}";
 			sepNavSelRange = "{960, 0}";
@@ -314,21 +275,21 @@
 	};
 	4CEA567B13201AF900DA8B3E /* UI.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 944}}";
-			sepNavSelRange = "{894, 54}";
-			sepNavVisRange = "{77, 1053}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 992}}";
+			sepNavSelRange = "{886, 0}";
+			sepNavVisRange = "{162, 1109}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	506EDC2F102F528A00A389B3 /* GameScene.h */ = {
+	506EDC2F102F528A00A389B3 /* Scene.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{229, 0}";
-			sepNavVisRange = "{0, 275}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{0, 271}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	506EDC30102F528A00A389B3 /* GameScene.m */ = {
+	506EDC30102F528A00A389B3 /* Scene.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1098, 832}}";
 			sepNavSelRange = "{962, 0}";
@@ -447,8 +408,8 @@
 	E0F80F5F120A0182005866B8 /* RootViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1308, 2448}}";
-			sepNavSelRange = "{2317, 0}";
-			sepNavVisRange = "{2605, 1611}";
+			sepNavSelRange = "{3436, 0}";
+			sepNavVisRange = "{2727, 1598}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};

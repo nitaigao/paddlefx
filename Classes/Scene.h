@@ -8,12 +8,12 @@
 
 #import "cocos2d.h"
 
-@class GameLogic;
+@class Logic;
 @class UI;
 
-@interface GameScene : CCLayer
+@interface Scene : CCLayer
 {  
-  GameLogic* gameLogic;
+  Logic* gameLogic;
 }
 
 +(id) scene;

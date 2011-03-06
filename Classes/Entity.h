@@ -13,7 +13,7 @@
 
 #include "cocos2d.h"
 
-@interface GameRenderEntity : CCSprite {
+@interface Entity : CCSprite {
 	
 	CGPoint position;
 	CGSize dimensions;

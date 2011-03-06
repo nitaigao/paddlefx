@@ -6,12 +6,12 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "GameOverRenderEntity.h"
+#import "GameOver.h"
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
-@implementation GameOverRenderEntity
+@implementation GameOver
 
 static const GLfloat gameOverVertices[] = {
 	-1.1f,  -0.05f,

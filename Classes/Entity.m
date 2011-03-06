@@ -6,13 +6,13 @@
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
-#import "GameRenderEntity.h"
+#import "Entity.h"
 
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
 
-@implementation GameRenderEntity
+@implementation Entity
 
 @synthesize position;
 @synthesize dimensions;
