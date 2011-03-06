@@ -19,6 +19,10 @@
 		4C5282FC13203E6B0033F153 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5282FB13203E6B0033F153 /* Button.m */; };
 		4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */; };
 		4C64D96A13232B3C00B031A1 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64D96913232B3C00B031A1 /* Sound.m */; };
+		4CBDA4DD1323443400F40883 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47F77A13232F4300D65C86 /* Stats.m */; };
+		4CBDA4DE1323443700F40883 /* Stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C47F77913232F4300D65C86 /* Stats.h */; };
+		4CBDA4F0132344AB00F40883 /* libphonehome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBDA4DA1323442A00F40883 /* libphonehome.a */; };
+		4CBDA52D1323475500F40883 /* GameStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBDA52C1323475500F40883 /* GameStats.m */; };
 		4CEA5251131FE39000DA8B3E /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA5250131FE39000DA8B3E /* Logic.m */; };
 		4CEA5262131FE3C500DA8B3E /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525B131FE3C500DA8B3E /* Ball.m */; };
 		4CEA5263131FE3C500DA8B3E /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA525D131FE3C500DA8B3E /* GameOver.m */; };
@@ -268,6 +272,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4CBDA4F1132344B200F40883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBDA4D91323442A00F40883 /* phonehome */;
+			remoteInfo = phonehome;
+		};
 		506EE1A71030507B00A389B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -291,11 +302,16 @@
 		4C0E46ED132317AA00C33A3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4C1AD42A1320207500E9FA7F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		4C1AD42B1320207500E9FA7F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		4C47F77913232F4300D65C86 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stats.h; path = Classes/Stats.h; sourceTree = "<group>"; };
+		4C47F77A13232F4300D65C86 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stats.m; path = Classes/Stats.m; sourceTree = "<group>"; };
 		4C5282FA13203E6B0033F153 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
 		4C5282FB13203E6B0033F153 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
 		4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Left-Sheet.png"; sourceTree = "<group>"; };
 		4C64D96813232B3C00B031A1 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
 		4C64D96913232B3C00B031A1 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		4CBDA4DA1323442A00F40883 /* libphonehome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libphonehome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBDA52B1323475500F40883 /* GameStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStats.h; sourceTree = "<group>"; };
+		4CBDA52C1323475500F40883 /* GameStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStats.m; sourceTree = "<group>"; };
 		4CEA524F131FE39000DA8B3E /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		4CEA5250131FE39000DA8B3E /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		4CEA5256131FE3C500DA8B3E /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
@@ -558,6 +574,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBDA4F0132344AB00F40883 /* libphonehome.a in Frameworks */,
 				DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */,
 				DCCBF1B90F6022AE0040855A /* Foundation.framework in Frameworks */,
 				DCCBF1BB0F6022AE0040855A /* OpenGLES.framework in Frameworks */,
@@ -568,6 +585,13 @@
 				506EDB88102F4C4000A389B3 /* libz.dylib in Frameworks */,
 				506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */,
 				506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDA4D81323442A00F40883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +617,7 @@
 			children = (
 				1D6058910D05DD3D006BFB54 /* PaddleFX.app */,
 				506EE05E10304ED200A389B3 /* libcocos2d libraries.a */,
+				4CBDA4DA1323442A00F40883 /* libphonehome.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -600,6 +625,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4CBDA4AE132342C800F40883 /* phonehome */,
 				504DFC6810AF1739006D82FE /* LICENSE.cocos2d */,
 				504DFC6910AF1739006D82FE /* LICENSE.cocosdenshion */,
 				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
@@ -656,6 +682,8 @@
 				E0F80F5F120A0182005866B8 /* RootViewController.m */,
 				1F3B9A2C0EF2145700286867 /* PaddleFXAppDelegate.h */,
 				1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */,
+				4CBDA52B1323475500F40883 /* GameStats.h */,
+				4CBDA52C1323475500F40883 /* GameStats.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -671,6 +699,15 @@
 				4C64D96913232B3C00B031A1 /* Sound.m */,
 			);
 			name = Game;
+			sourceTree = "<group>";
+		};
+		4CBDA4AE132342C800F40883 /* phonehome */ = {
+			isa = PBXGroup;
+			children = (
+				4C47F77913232F4300D65C86 /* Stats.h */,
+				4C47F77A13232F4300D65C86 /* Stats.m */,
+			);
+			name = phonehome;
 			sourceTree = "<group>";
 		};
 		4CEA5285131FE47E00DA8B3E /* Entities */ = {
@@ -1044,6 +1081,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4CBDA4D61323442A00F40883 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBDA4DE1323443700F40883 /* Stats.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		506EE05A10304ED200A389B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1177,11 +1222,29 @@
 			);
 			dependencies = (
 				506EE1A81030507B00A389B3 /* PBXTargetDependency */,
+				4CBDA4F2132344B200F40883 /* PBXTargetDependency */,
 			);
 			name = PaddleFX;
 			productName = PaddleFX;
 			productReference = 1D6058910D05DD3D006BFB54 /* PaddleFX.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4CBDA4D91323442A00F40883 /* phonehome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBDA502132344C800F40883 /* Build configuration list for PBXNativeTarget "phonehome" */;
+			buildPhases = (
+				4CBDA4D61323442A00F40883 /* Headers */,
+				4CBDA4D71323442A00F40883 /* Sources */,
+				4CBDA4D81323442A00F40883 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phonehome;
+			productName = phonehome;
+			productReference = 4CBDA4DA1323442A00F40883 /* libphonehome.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
 			isa = PBXNativeTarget;
@@ -1221,6 +1284,7 @@
 			targets = (
 				1D6058900D05DD3D006BFB54 /* PaddleFX */,
 				506EE05D10304ED200A389B3 /* cocos2d libraries */,
+				4CBDA4D91323442A00F40883 /* phonehome */,
 			);
 		};
 /* End PBXProject section */
@@ -1273,6 +1337,15 @@
 				4C1AD42C1320207500E9FA7F /* Controller.m in Sources */,
 				4C5282FC13203E6B0033F153 /* Button.m in Sources */,
 				4C64D96A13232B3C00B031A1 /* Sound.m in Sources */,
+				4CBDA52D1323475500F40883 /* GameStats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBDA4D71323442A00F40883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBDA4DD1323443400F40883 /* Stats.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1383,6 +1456,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4CBDA4F2132344B200F40883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBDA4D91323442A00F40883 /* phonehome */;
+			targetProxy = 4CBDA4F1132344B200F40883 /* PBXContainerItemProxy */;
+		};
 		506EE1A81030507B00A389B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 506EE05D10304ED200A389B3 /* cocos2d libraries */;
@@ -1434,6 +1512,33 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = PaddleFX;
 				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		4CBDA4DB1323442B00F40883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = phonehome;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CBDA4DC1323442B00F40883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = phonehome;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -1517,6 +1622,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBDA502132344C800F40883 /* Build configuration list for PBXNativeTarget "phonehome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBDA4DB1323442B00F40883 /* Debug */,
+				4CBDA4DC1323442B00F40883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

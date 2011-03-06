@@ -16,6 +16,7 @@
 #import "Scene.h"
 #import "UI.h"
 #import "Sound.h"
+#import "GameStats.h"
 
 @implementation Logic
 
@@ -98,12 +99,14 @@
   [ui onePlayer];
   isSinglePlayer = YES;
   [self newGame];
+  [GameStats onePlayer];
 }
 
 - (void)twoPlayer { 
   [ui twoPlayer];
   isSinglePlayer = FALSE;
   [self newGame];
+  [GameStats twoPlayer];
 }
 
 - (void)setIsSinglePlayer:(bool)singlePlayer {

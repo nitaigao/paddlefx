@@ -12,6 +12,7 @@
 #import "GameConfig.h"
 #import "Scene.h"
 #import "RootViewController.h"
+#import "GameStats.h"
 
 @implementation PaddleFXAppDelegate
 
@@ -91,7 +92,6 @@
 	[director setAnimationInterval:1.0/60];
 	[director setDisplayFPS:NO];
 	
-	
 	// make the OpenGLView a child of the view controller
 	[viewController setView:glView];
 	
@@ -111,6 +111,7 @@
 	
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [Scene scene]];		
+  [GameStats activate];
 }
 
 
@@ -132,6 +133,7 @@
 
 -(void) applicationWillEnterForeground:(UIApplication*)application {
 	[[CCDirector sharedDirector] startAnimation];
+  [GameStats activate];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

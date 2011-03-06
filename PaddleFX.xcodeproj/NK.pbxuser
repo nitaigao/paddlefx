@@ -8,10 +8,17 @@
 	};
 	1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 2448}}";
-			sepNavSelRange = "{2844, 0}";
-			sepNavVisRange = "{1671, 1682}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 2544}}";
+			sepNavSelRange = "{3596, 0}";
+			sepNavVisRange = "{2869, 1388}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	1F3B9A2C0EF2145700286867 /* PaddleFXAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 383}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -29,8 +36,8 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 321071815;
-			PBXWorkspaceStateSaveDate = 321071815;
+			PBXPerProjectTemplateStateSaveDate = 321073159;
+			PBXWorkspaceStateSaveDate = 321073159;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -50,6 +57,22 @@
 			sepNavSelRange = "{300, 10}";
 			sepNavVisRange = "{209, 472}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4C47F77913232F4300D65C86 /* Stats.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{156, 0}";
+			sepNavVisRange = "{0, 156}";
+			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
+		};
+	};
+	4C47F77A13232F4300D65C86 /* Stats.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{66, 0}";
+			sepNavVisRange = "{0, 1146}";
+			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
 	};
 	4C5282FA13203E6B0033F153 /* Button.h */ = {
@@ -81,6 +104,25 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
 			sepNavSelRange = "{492, 0}";
 			sepNavVisRange = "{0, 659}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4CBDA4D91323442A00F40883 /* phonehome */ = {
+		activeExec = 0;
+	};
+	4CBDA52B1323475500F40883 /* GameStats.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{75, 0}";
+			sepNavVisRange = "{0, 119}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4CBDA52C1323475500F40883 /* GameStats.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRange = "{0, 825}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -140,9 +182,9 @@
 	};
 	4CEA5250131FE39000DA8B3E /* Logic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1098, 3376}}";
-			sepNavSelRange = "{331, 0}";
-			sepNavVisRange = "{308, 240}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3408}}";
+			sepNavSelRange = "{1893, 0}";
+			sepNavVisRange = "{2180, 1053}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -408,9 +450,9 @@
 	};
 	E0F80F5F120A0182005866B8 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1308, 2448}}";
-			sepNavSelRange = "{3436, 0}";
-			sepNavVisRange = "{2727, 1598}";
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 2464}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 253}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
