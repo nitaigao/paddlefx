@@ -30,9 +30,11 @@ static const GLfloat paddleVertices[] = {
 	return self;
 }
 
+static const float PADDLE_MAX = 0.55f;
+
 - (void)update:(double)delta {
 	float newPosition = self.position.x + (moveSpeed * delta);
-	position.x = (newPosition > -0.8 && newPosition < 0.8) ? newPosition : position.x;
+	position.x = (newPosition > -PADDLE_MAX && newPosition < PADDLE_MAX) ? newPosition : position.x;
 }
 
 - (void)draw {

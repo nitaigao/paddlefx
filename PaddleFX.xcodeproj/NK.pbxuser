@@ -17,6 +17,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4CEA520E131FE24D00DA8B3E /* PaddleFX */;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PaddleFX */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PaddleFX */,
@@ -28,8 +29,8 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 320969900;
-			PBXWorkspaceStateSaveDate = 320969900;
+			PBXPerProjectTemplateStateSaveDate = 321067016;
+			PBXWorkspaceStateSaveDate = 321067016;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -123,9 +124,9 @@
 	};
 	4CEA5250131FE39000DA8B3E /* Logic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1044, 3360}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3456}}";
 			sepNavSelRange = "{3014, 0}";
-			sepNavVisRange = "{2870, 285}";
+			sepNavVisRange = "{142, 1085}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -155,9 +156,9 @@
 	};
 	4CEA525B131FE3C500DA8B3E /* Ball.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 3632}}";
-			sepNavSelRange = "{2159, 0}";
-			sepNavVisRange = "{1497, 1168}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3680}}";
+			sepNavSelRange = "{433, 5}";
+			sepNavVisRange = "{0, 1032}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -172,7 +173,7 @@
 	4CEA525D131FE3C500DA8B3E /* GameOver.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{574, 0}";
+			sepNavSelRange = "{469, 0}";
 			sepNavVisRange = "{0, 637}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
@@ -219,9 +220,9 @@
 	};
 	4CEA5471131FF2D200DA8B3E /* Paddle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 1200}}";
-			sepNavSelRange = "{947, 0}";
-			sepNavVisRange = "{0, 1142}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1152}}";
+			sepNavSelRange = "{1003, 0}";
+			sepNavVisRange = "{295, 1082}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
