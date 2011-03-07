@@ -54,33 +54,23 @@
 }
 
 - (void)player1LeftDown {
-  if (isPlaying) {
-    [player1Paddle startMoveLeft]; 
-  }
+  [player1Paddle startMoveLeft]; 
 }
 
 - (void)player1LeftUp {
-  if (isPlaying) {
-    [player1Paddle stop]; 
-  }
+  [player1Paddle stop]; 
 }
 
 - (void)player1RightDown {
-  if (isPlaying) {
-    [player1Paddle startMoveRight]; 
-  }
+  [player1Paddle startMoveRight]; 
 }
 
 - (void)player1RightUp {
-  if (isPlaying) {
-    [player1Paddle stop]; 
-  }
+  [player1Paddle stop]; 
 }
 
 - (void)player2LeftDown {
-  if (isPlaying) {
-    [player2Paddle startMoveLeft]; 
-  }
+  [player2Paddle startMoveLeft]; 
 }
 
 - (void)player2LeftUp {

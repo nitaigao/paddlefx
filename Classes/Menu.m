@@ -7,6 +7,7 @@
 //
 
 #import "Menu.h"
+#import "Constants.h"
 
 
 @implementation Menu
@@ -16,8 +17,8 @@
   self = [super init];
   if (self != nil) {
     target = t;
-    [CCMenuItemFont setFontName:@"DS-DIGIB"];
-    [CCMenuItemFont setFontSize:48];
+    [CCMenuItemFont setFontName:FONT_NAME];
+    [CCMenuItemFont setFontSize:FONT_SIZE];
     
     CCMenuItem *onePlayer = [CCMenuItemFont itemFromString:@"One Player" target:self selector:@selector(onePlayer:)];
     onePlayer.position = ccp(0, 80);

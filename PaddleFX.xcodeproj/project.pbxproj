@@ -16,6 +16,8 @@
 		4C0E46D3132315B800C33A3B /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E46CE132315B800C33A3B /* score.wav */; };
 		4C0E46EE132317AA00C33A3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E46ED132317AA00C33A3B /* Default.png */; };
 		4C1AD42C1320207500E9FA7F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1AD42B1320207500E9FA7F /* Controller.m */; };
+		4C2262D71324B58F00082CAC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2262D61324B58F00082CAC /* Constants.m */; };
+		4C3E094A13235205000DB804 /* Instrumentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E094913235205000DB804 /* Instrumentation.m */; };
 		4C5282FC13203E6B0033F153 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5282FB13203E6B0033F153 /* Button.m */; };
 		4C589E5F13203AC400BD3716 /* Arrow-Left-Sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C589E5E13203AC400BD3716 /* Arrow-Left-Sheet.png */; };
 		4C64D96A13232B3C00B031A1 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64D96913232B3C00B031A1 /* Sound.m */; };
@@ -276,7 +278,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4CBDA4D91323442A00F40883 /* phonehome */;
+			remoteGlobalIDString = 4CBDA4D91323442A00F40883;
 			remoteInfo = phonehome;
 		};
 		506EE1A71030507B00A389B3 /* PBXContainerItemProxy */ = {
@@ -302,6 +304,10 @@
 		4C0E46ED132317AA00C33A3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4C1AD42A1320207500E9FA7F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		4C1AD42B1320207500E9FA7F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		4C2262D51324B58F00082CAC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4C2262D61324B58F00082CAC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4C3E094813235205000DB804 /* Instrumentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instrumentation.h; sourceTree = "<group>"; };
+		4C3E094913235205000DB804 /* Instrumentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instrumentation.m; sourceTree = "<group>"; };
 		4C47F77913232F4300D65C86 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stats.h; path = Classes/Stats.h; sourceTree = "<group>"; };
 		4C47F77A13232F4300D65C86 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stats.m; path = Classes/Stats.m; sourceTree = "<group>"; };
 		4C5282FA13203E6B0033F153 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
@@ -684,6 +690,10 @@
 				1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */,
 				4CBDA52B1323475500F40883 /* GameStats.h */,
 				4CBDA52C1323475500F40883 /* GameStats.m */,
+				4C3E094813235205000DB804 /* Instrumentation.h */,
+				4C3E094913235205000DB804 /* Instrumentation.m */,
+				4C2262D51324B58F00082CAC /* Constants.h */,
+				4C2262D61324B58F00082CAC /* Constants.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1338,6 +1348,8 @@
 				4C5282FC13203E6B0033F153 /* Button.m in Sources */,
 				4C64D96A13232B3C00B031A1 /* Sound.m in Sources */,
 				4CBDA52D1323475500F40883 /* GameStats.m in Sources */,
+				4C3E094A13235205000DB804 /* Instrumentation.m in Sources */,
+				4C2262D71324B58F00082CAC /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1573,7 +1585,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1586,7 +1598,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;

@@ -7,6 +7,7 @@
 //
 
 #import "Scores.h"
+#import "Constants.h"
 
 
 @implementation Scores
@@ -15,11 +16,11 @@
 {
   self = [super init];
   if (self != nil) {
-    player1score = [[CCLabelTTF alloc] initWithString:@"0" fontName:@"DS-DIGIB" fontSize:48];
+    player1score = [[CCLabelTTF alloc] initWithString:@"0" fontName:FONT_NAME fontSize:FONT_SIZE];
     player1score.position = ccp(-150, 0);
     [self addChild:player1score];
     
-    player2score = [[CCLabelTTF alloc] initWithString:@"0" fontName:@"DS-DIGIB" fontSize:48];
+    player2score = [[CCLabelTTF alloc] initWithString:@"0" fontName:FONT_NAME fontSize:FONT_SIZE];
     player2score.position = ccp(150, 0);
     [self addChild:player2score];
   }

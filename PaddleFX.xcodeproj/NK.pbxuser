@@ -8,23 +8,23 @@
 	};
 	1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 2544}}";
-			sepNavSelRange = "{3596, 0}";
-			sepNavVisRange = "{2869, 1388}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 2608}}";
+			sepNavSelRange = "{2936, 0}";
+			sepNavVisRange = "{2263, 1501}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
 	1F3B9A2C0EF2145700286867 /* PaddleFXAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavSelRange = "{29, 0}";
 			sepNavVisRange = "{0, 383}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4CEA520E131FE24D00DA8B3E /* PaddleFX */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PaddleFX */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PaddleFX */,
@@ -36,8 +36,12 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 321073159;
-			PBXWorkspaceStateSaveDate = 321073159;
+			PBXPerProjectTemplateStateSaveDate = 321168201;
+			PBXWorkspaceStateSaveDate = 321168201;
+		};
+		perUserProjectItems = {
+			4C2263011324B84900082CAC /* PBXBookmark */ = 4C2263011324B84900082CAC /* PBXBookmark */;
+			4C2263081324B8A700082CAC /* PBXTextBookmark */ = 4C2263081324B8A700082CAC /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -53,9 +57,55 @@
 	};
 	4C1AD42B1320207500E9FA7F /* Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1004, 1232}}";
-			sepNavSelRange = "{300, 10}";
-			sepNavVisRange = "{209, 472}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1152}}";
+			sepNavSelRange = "{1330, 0}";
+			sepNavVisRange = "{33, 1689}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4C2262D51324B58F00082CAC /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{41, 63}";
+			sepNavVisRange = "{0, 111}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4C2262D61324B58F00082CAC /* Constants.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{158, 1}";
+			sepNavVisRange = "{0, 234}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4C2263011324B84900082CAC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */;
+	};
+	4C2263081324B8A700082CAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */;
+		name = "PaddleFXAppDelegate.m: 95";
+		rLen = 0;
+		rLoc = 2936;
+		rType = 0;
+		vrLen = 1501;
+		vrLoc = 2263;
+	};
+	4C3E094813235205000DB804 /* Instrumentation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 358}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	4C3E094913235205000DB804 /* Instrumentation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 480}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{206, 267}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -85,9 +135,9 @@
 	};
 	4C5282FB13203E6B0033F153 /* Button.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1375, 1024}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1120}}";
 			sepNavSelRange = "{1430, 0}";
-			sepNavVisRange = "{1038, 903}";
+			sepNavVisRange = "{0, 1565}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -182,9 +232,9 @@
 	};
 	4CEA5250131FE39000DA8B3E /* Logic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 3408}}";
-			sepNavSelRange = "{1893, 0}";
-			sepNavVisRange = "{2180, 1053}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3344}}";
+			sepNavSelRange = "{1545, 0}";
+			sepNavVisRange = "{0, 1165}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -199,7 +249,7 @@
 	4CEA5258131FE3C500DA8B3E /* Paddle.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{367, 0}";
+			sepNavSelRange = "{347, 0}";
 			sepNavVisRange = "{0, 368}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
@@ -214,8 +264,8 @@
 	};
 	4CEA525B131FE3C500DA8B3E /* Ball.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 3680}}";
-			sepNavSelRange = "{433, 5}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3712}}";
+			sepNavSelRange = "{440, 0}";
 			sepNavVisRange = "{0, 1032}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
@@ -231,7 +281,7 @@
 	4CEA525D131FE3C500DA8B3E /* GameOver.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{469, 0}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 637}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
@@ -262,17 +312,17 @@
 	};
 	4CEA5471131FF2D200DA8B3E /* Paddle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 1152}}";
-			sepNavSelRange = "{1003, 0}";
-			sepNavVisRange = "{295, 1082}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1104}}";
+			sepNavSelRange = "{606, 0}";
+			sepNavVisRange = "{93, 1160}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
 	4CEA548B131FF32400DA8B3E /* Entity.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 1024}}";
-			sepNavSelRange = "{960, 0}";
-			sepNavVisRange = "{241, 817}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1056}}";
+			sepNavSelRange = "{351, 0}";
+			sepNavVisRange = "{0, 760}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -286,9 +336,9 @@
 	};
 	4CEA565D132019D400DA8B3E /* Scores.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{738, 0}";
-			sepNavVisRange = "{0, 818}";
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 624}}";
+			sepNavSelRange = "{259, 0}";
+			sepNavVisRange = "{175, 259}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -302,9 +352,9 @@
 	};
 	4CEA566413201A2000DA8B3E /* Menu.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1098, 688}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 151}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 977}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -318,9 +368,9 @@
 	};
 	4CEA567B13201AF900DA8B3E /* UI.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1098, 992}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 185}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1040}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{0, 1034}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -335,8 +385,8 @@
 	506EDC30102F528A00A389B3 /* Scene.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 848}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 937}";
+			sepNavSelRange = "{385, 0}";
+			sepNavVisRange = "{38, 905}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -344,6 +394,11 @@
 		activeExec = 0;
 	};
 	50F414ED1069373D002A0D5E /* fps_images.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
+	50F414EE1069373D002A0D5E /* Icon.png */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
@@ -440,6 +495,14 @@
 			sepNavVisRange = "{2462, 704}";
 		};
 	};
+	E0F80F5D120A0182005866B8 /* GameConfig.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 480}}";
+			sepNavSelRange = "{517, 0}";
+			sepNavVisRange = "{0, 187}";
+			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
+		};
+	};
 	E0F80F5E120A0182005866B8 /* RootViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
@@ -450,9 +513,9 @@
 	};
 	E0F80F5F120A0182005866B8 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1116, 2464}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{3, 253}";
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 2448}}";
+			sepNavSelRange = "{3747, 0}";
+			sepNavVisRange = "{2959, 1452}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
