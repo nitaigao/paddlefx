@@ -27,6 +27,8 @@ static const GLfloat paddleVertices[] = {
 	position = initialPosition;
 	dimensions.width = 0.4f;
 	dimensions.height = 0.06f;
+  movingLeft = NO;
+  movingRight = NO;
 	return self;
 }
 
@@ -57,14 +59,32 @@ static const float PADDLE_MAX = 0.69f;
 }
 
 - (void)startMoveLeft {
+  movingLeft = YES;
 	moveSpeed = -MAX_MOVE_SPEED;
 }
 
+- (void)stopMoveLeft {
+  movingLeft = NO;
+  if (!movingLeft && !movingRight) {
+   [self stop];
+  }
+}
+
 - (void)stop {
-	moveSpeed = 0.0f;
+  movingRight = NO;
+  movingLeft = NO;
+  moveSpeed = 0.0f; 
+}
+
+- (void)stopMoveRight {
+  movingRight = NO;
+  if (!movingLeft && !movingRight) {
+    [self stop];
+  }  
 }
 
 - (void)startMoveRight {
+  movingRight = YES;
 	moveSpeed = MAX_MOVE_SPEED;
 }
 

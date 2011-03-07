@@ -8,7 +8,7 @@
 
 #import "GameStats.h"
 
-static NSString* SERVER_URL = @"localhost:9292";
+static NSString* SERVER_URL = @"192.168.1.105:9292";
 static NSString* GAME = @"paddlefx";
 
 

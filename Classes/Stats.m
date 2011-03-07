@@ -5,12 +5,12 @@ static NSString* SIGNATURE_KEY = @"signature";
 @implementation Stats
 
 + (NSString*)uuid {
-  CFUUIDRef myUUID = CFUUIDCreate(kCFAllocatorDefault);
-  CFStringRef myUUIDString = CFUUIDCreateString(kCFAllocatorDefault, myUUID);
+  CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
+  CFStringRef uuidString = CFUUIDCreateString(kCFAllocatorDefault, uuid);
   
   static const int BUFFER_SIZE = 100;
   char strBuffer[BUFFER_SIZE];
-  CFStringGetCString(myUUIDString, strBuffer, BUFFER_SIZE, kCFStringEncodingASCII);
+  CFStringGetCString(uuidString, strBuffer, BUFFER_SIZE, kCFStringEncodingASCII);
   return [NSString stringWithUTF8String:strBuffer];  
 }
 

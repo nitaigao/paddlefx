@@ -58,7 +58,7 @@
 }
 
 - (void)player1LeftUp {
-  [player1Paddle stop]; 
+  [player1Paddle stopMoveLeft];
 }
 
 - (void)player1RightDown {
@@ -66,7 +66,7 @@
 }
 
 - (void)player1RightUp {
-  [player1Paddle stop]; 
+  [player1Paddle stopMoveRight];
 }
 
 - (void)player2LeftDown {
@@ -74,7 +74,7 @@
 }
 
 - (void)player2LeftUp {
-  [player2Paddle stop]; 
+  [player2Paddle stopMoveLeft];
 }
 
 - (void)player2RightDown {
@@ -82,7 +82,7 @@
 }
 
 - (void)player2RightUp {
-  [player2Paddle stop]; 
+  [player2Paddle stopMoveRight];
 }
 
 - (void)onePlayer {

@@ -12,12 +12,16 @@
 
 @interface Paddle : Entity {
 	float moveSpeed;
+  BOOL movingLeft;
+  BOOL movingRight;
 }
 
 - (id)initWithPosition:(CGPoint)initialPosition;
 
 - (void)startMoveLeft;
 - (void)startMoveRight;
+- (void)stopMoveLeft;
+- (void)stopMoveRight;
 - (void)stop;
 
 @end
