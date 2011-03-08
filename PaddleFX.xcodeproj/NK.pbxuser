@@ -24,7 +24,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4CEA520E131FE24D00DA8B3E /* PaddleFX */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PaddleFX */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PaddleFX */,
@@ -38,13 +38,6 @@
 		perUserDictionary = {
 			PBXPerProjectTemplateStateSaveDate = 321173962;
 			PBXWorkspaceStateSaveDate = 321173962;
-		};
-		perUserProjectItems = {
-			4C2263011324B84900082CAC = 4C2263011324B84900082CAC /* PBXBookmark */;
-			4C2263081324B8A700082CAC = 4C2263081324B8A700082CAC /* PBXTextBookmark */;
-			4CB787751324BE2B004B57FA /* PBXTextBookmark */ = 4CB787751324BE2B004B57FA /* PBXTextBookmark */;
-			4CB787761324BE2B004B57FA /* XCBuildMessageTextBookmark */ = 4CB787761324BE2B004B57FA /* XCBuildMessageTextBookmark */;
-			4CB787771324BE2B004B57FA /* PBXTextBookmark */ = 4CB787771324BE2B004B57FA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -82,20 +75,6 @@
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4C2263011324B84900082CAC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */;
-	};
-	4C2263081324B8A700082CAC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */;
-		name = "PaddleFXAppDelegate.m: 95";
-		rLen = 0;
-		rLoc = 2936;
-		rType = 0;
-		vrLen = 1501;
-		vrLoc = 2263;
-	};
 	4C3E094813235205000DB804 /* Instrumentation.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
@@ -115,16 +94,16 @@
 	4C47F77913232F4300D65C86 /* Stats.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{156, 0}";
-			sepNavVisRange = "{0, 156}";
+			sepNavSelRange = "{87, 0}";
+			sepNavVisRange = "{0, 175}";
 			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
 	};
 	4C47F77A13232F4300D65C86 /* Stats.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{66, 0}";
-			sepNavVisRange = "{0, 1146}";
+			sepNavSelRange = "{495, 19}";
+			sepNavVisRange = "{0, 1472}";
 			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
 	};
@@ -160,35 +139,6 @@
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	4CB787751324BE2B004B57FA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CEA5250131FE39000DA8B3E /* Logic.m */;
-		name = "Logic.m: 116";
-		rLen = 0;
-		rLoc = 2198;
-		rType = 0;
-		vrLen = 151;
-		vrLoc = 2122;
-	};
-	4CB787761324BE2B004B57FA /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Compile /Users/NK/Development/games/PaddleFX/Classes/Instrumentation.m";
-		fRef = 4C3E094913235205000DB804 /* Instrumentation.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 0;
-		rLoc = 0;
-		rType = 1;
-	};
-	4CB787771324BE2B004B57FA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4C3E094913235205000DB804 /* Instrumentation.m */;
-		name = "Instrumentation.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 173;
-		vrLoc = 0;
-	};
 	4CBDA4D91323442A00F40883 /* phonehome */ = {
 		activeExec = 0;
 	};
@@ -203,8 +153,8 @@
 	4CBDA52C1323475500F40883 /* GameStats.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{246, 0}";
-			sepNavVisRange = "{0, 825}";
+			sepNavSelRange = "{799, 0}";
+			sepNavVisRange = "{0, 808}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -344,9 +294,9 @@
 	};
 	4CEA5471131FF2D200DA8B3E /* Paddle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 1360}}";
-			sepNavSelRange = "{682, 0}";
-			sepNavVisRange = "{296, 1146}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1552}}";
+			sepNavSelRange = "{1439, 0}";
+			sepNavVisRange = "{1009, 803}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};

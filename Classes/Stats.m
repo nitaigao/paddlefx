@@ -1,6 +1,7 @@
 #import "Stats.h"
 
 static NSString* SIGNATURE_KEY = @"signature";
+static NSString* HOST_KEY = @"PhoneHomeHost";
 
 @implementation Stats
 
@@ -14,9 +15,15 @@ static NSString* SIGNATURE_KEY = @"signature";
   return [NSString stringWithUTF8String:strBuffer];  
 }
 
-+ (NSString*)signature {
++ (NSString*)host {
   NSString* bundlePath = [NSBundle pathForResource:@"Info" ofType:@"plist" inDirectory:[[NSBundle mainBundle] bundlePath]];
   NSMutableDictionary* settings = [NSMutableDictionary dictionaryWithContentsOfFile:bundlePath];
+  return [settings valueForKey:HOST_KEY];
+}
+
++ (NSString*)signature {
+  NSString* bundlePath = [NSBundle pathForResource:@"Info" ofType:@"plist" inDirectory:[[NSBundle mainBundle] bundlePath]];
+  NSMutableDictionary* settings = [NSMutableDictionary dictionaryWithContentsOfFile:bundlePath];  
   
   if (![settings valueForKey:SIGNATURE_KEY]) {
     [settings setValue:[Stats uuid] forKey:SIGNATURE_KEY];

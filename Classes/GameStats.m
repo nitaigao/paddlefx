@@ -8,24 +8,23 @@
 
 #import "GameStats.h"
 
-static NSString* SERVER_URL = @"192.168.1.105:9292";
 static NSString* GAME = @"paddlefx";
-
 
 @implementation GameStats
 
 + (void)activate {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/activation?signature=%@", SERVER_URL, GAME, [Stats signature]];
+  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/activation?signature=%@", [Stats host], GAME, [Stats signature]];
+  NSLog(@"%@", urlString);
   [Stats request:urlString];
 }
 
 + (void)onePlayer {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/one-player?signature=%@", SERVER_URL, GAME, [Stats signature]];
+  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/one-player?signature=%@", [Stats host], GAME, [Stats signature]];
   [Stats request:urlString];
 }
 
 + (void)twoPlayer {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/two-player?signature=%@", SERVER_URL, GAME, [Stats signature]];
+  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/two-player?signature=%@", [Stats host], GAME, [Stats signature]];
   [Stats request:urlString];
 }
 

@@ -4,6 +4,7 @@
 
 }
 
++ (NSString*)host;
 + (void)request:(NSString*)urlString;
 + (NSString*)signature;
 + (NSString*)uuid;
