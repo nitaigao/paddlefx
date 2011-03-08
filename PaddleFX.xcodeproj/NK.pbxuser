@@ -36,8 +36,8 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 321173962;
-			PBXWorkspaceStateSaveDate = 321173962;
+			PBXPerProjectTemplateStateSaveDate = 321275245;
+			PBXWorkspaceStateSaveDate = 321275245;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -94,16 +94,16 @@
 	4C47F77913232F4300D65C86 /* Stats.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{87, 0}";
-			sepNavVisRange = "{0, 175}";
+			sepNavSelRange = "{211, 28}";
+			sepNavVisRange = "{0, 280}";
 			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
 	};
 	4C47F77A13232F4300D65C86 /* Stats.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{495, 19}";
-			sepNavVisRange = "{0, 1472}";
+			sepNavIntBoundsRect = "{{0, 0}, {1340, 928}}";
+			sepNavSelRange = "{1183, 0}";
+			sepNavVisRange = "{160, 1578}";
 			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
 	};
@@ -153,8 +153,8 @@
 	4CBDA52C1323475500F40883 /* GameStats.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{799, 0}";
-			sepNavVisRange = "{0, 808}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 356}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};

@@ -8,24 +8,18 @@
 
 #import "GameStats.h"
 
-static NSString* GAME = @"paddlefx";
-
 @implementation GameStats
 
 + (void)activate {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/activation?signature=%@", [Stats host], GAME, [Stats signature]];
-  NSLog(@"%@", urlString);
-  [Stats request:urlString];
+  [Stats report:@"activation"];
 }
 
 + (void)onePlayer {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/one-player?signature=%@", [Stats host], GAME, [Stats signature]];
-  [Stats request:urlString];
+  [Stats report:@"one-player"];
 }
 
 + (void)twoPlayer {
-  NSString* urlString = [NSString stringWithFormat:@"http://%@/%@/two-player?signature=%@", [Stats host], GAME, [Stats signature]];
-  [Stats request:urlString];
+  [Stats report:@"two-player"];
 }
 
 @end
