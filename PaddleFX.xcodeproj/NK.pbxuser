@@ -8,9 +8,9 @@
 	};
 	1F3B9A2B0EF2145700286867 /* PaddleFXAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 2576}}";
-			sepNavSelRange = "{2748, 0}";
-			sepNavVisRange = "{2263, 1501}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 2464}}";
+			sepNavSelRange = "{4035, 0}";
+			sepNavVisRange = "{3086, 1315}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -22,9 +22,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = 4CEA520E131FE24D00DA8B3E /* PaddleFX */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PaddleFX */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PaddleFX */,
@@ -36,8 +36,8 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 321275245;
-			PBXWorkspaceStateSaveDate = 321275245;
+			PBXPerProjectTemplateStateSaveDate = 321319099;
+			PBXWorkspaceStateSaveDate = 321319099;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -102,7 +102,7 @@
 	4C47F77A13232F4300D65C86 /* Stats.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1340, 928}}";
-			sepNavSelRange = "{1183, 0}";
+			sepNavSelRange = "{822, 0}";
 			sepNavVisRange = "{160, 1578}";
 			sepNavWindowFrame = "{{37, 20}, {1330, 858}}";
 		};
@@ -145,16 +145,16 @@
 	4CBDA52B1323475500F40883 /* GameStats.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{75, 0}";
-			sepNavVisRange = "{0, 119}";
+			sepNavSelRange = "{53, 0}";
+			sepNavVisRange = "{0, 142}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
 	4CBDA52C1323475500F40883 /* GameStats.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1271, 786}}";
-			sepNavSelRange = "{239, 0}";
-			sepNavVisRange = "{0, 356}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 414}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -246,9 +246,9 @@
 	};
 	4CEA525B131FE3C500DA8B3E /* Ball.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1271, 3712}}";
-			sepNavSelRange = "{440, 0}";
-			sepNavVisRange = "{0, 1032}";
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 3728}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 228}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -380,11 +380,6 @@
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
-	50F414EE1069373D002A0D5E /* Icon.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
 	50F414EF1069373D002A0D5E /* Info.plist */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
@@ -406,11 +401,6 @@
 		};
 	};
 	E02BB501126CA50F006E46A2 /* Icon-Small-50.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	E02BB502126CA50F006E46A2 /* Icon-72.png */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};

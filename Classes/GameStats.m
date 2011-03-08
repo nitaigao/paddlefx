@@ -14,6 +14,10 @@
   [Stats report:@"activation"];
 }
 
++ (void)deactivate {
+  [Stats report:@"deactivation"];
+}
+
 + (void)onePlayer {
   [Stats report:@"one-player"];
 }

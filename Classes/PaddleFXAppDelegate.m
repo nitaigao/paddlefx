@@ -114,7 +114,6 @@
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [Scene scene]];		
   [GameStats activate];
-//  [Instrumentation activated];
 }
 
 
@@ -132,13 +131,12 @@
 
 -(void) applicationDidEnterBackground:(UIApplication*)application {
 	[[CCDirector sharedDirector] stopAnimation];
- // [Instrumentation deactivated];
+  [GameStats deactivate];
 }
 
 -(void) applicationWillEnterForeground:(UIApplication*)application {
 	[[CCDirector sharedDirector] startAnimation];
   [GameStats activate];
-  //[Instrumentation activated];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
