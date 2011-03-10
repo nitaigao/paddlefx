@@ -36,8 +36,8 @@
 			4CEA520E131FE24D00DA8B3E /* PaddleFX */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 321319099;
-			PBXWorkspaceStateSaveDate = 321319099;
+			PBXPerProjectTemplateStateSaveDate = 321436699;
+			PBXWorkspaceStateSaveDate = 321436699;
 		};
 		sourceControlManager = 4CEA5223131FE25B00DA8B3E /* Source Control */;
 		userBuildSettings = {
@@ -214,9 +214,9 @@
 	};
 	4CEA5250131FE39000DA8B3E /* Logic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1098, 3472}}";
-			sepNavSelRange = "{2198, 0}";
-			sepNavVisRange = "{2122, 151}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 3600}}";
+			sepNavSelRange = "{1702, 0}";
+			sepNavVisRange = "{1496, 807}";
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};
 	};
@@ -381,26 +381,6 @@
 		};
 	};
 	50F414EF1069373D002A0D5E /* Info.plist */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	E02BB4FE126CA50F006E46A2 /* Icon@2x.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	E02BB500126CA50F006E46A2 /* Icon-Small.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
-		};
-	};
-	E02BB501126CA50F006E46A2 /* Icon-Small-50.png */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{19, 15}, {1330, 858}}";
 		};

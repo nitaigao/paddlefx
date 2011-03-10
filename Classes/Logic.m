@@ -54,35 +54,51 @@
 }
 
 - (void)player1LeftDown {
-  [player1Paddle startMoveLeft]; 
+  if (!isDemo) {
+    [player1Paddle startMoveLeft]; 
+  }
 }
 
 - (void)player1LeftUp {
-  [player1Paddle stopMoveLeft];
+  if (!isDemo) {
+    [player1Paddle stopMoveLeft];
+  }
 }
 
 - (void)player1RightDown {
-  [player1Paddle startMoveRight]; 
+  if (!isDemo) {
+    [player1Paddle startMoveRight]; 
+  }
 }
 
 - (void)player1RightUp {
-  [player1Paddle stopMoveRight];
+  if (!isDemo) {
+    [player1Paddle stopMoveRight];
+  }
 }
 
 - (void)player2LeftDown {
-  [player2Paddle startMoveLeft]; 
+  if (!isDemo) {
+    [player2Paddle startMoveLeft]; 
+  }
 }
 
 - (void)player2LeftUp {
-  [player2Paddle stopMoveLeft];
+  if (!isDemo) {
+    [player2Paddle stopMoveLeft];
+  }
 }
 
 - (void)player2RightDown {
-  [player2Paddle startMoveRight]; 
+  if (!isDemo) {
+    [player2Paddle startMoveRight]; 
+  }
 }
 
 - (void)player2RightUp {
-  [player2Paddle stopMoveRight];
+  if (!isDemo) {
+    [player2Paddle stopMoveRight];
+  }
 }
 
 - (void)onePlayer {
